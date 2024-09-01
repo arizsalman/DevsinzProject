@@ -26,6 +26,7 @@ function App() {
     {/* <Hero/>  */}
         <Routes>
           
+        <Route path='/' element={<Hero/>} />
 
           <Route path='/firstTask' element={<FirstTask />} />
           <Route path='/secondTask' element={<SecondTask />} />
@@ -33,7 +34,6 @@ function App() {
           <Route path='/fourthTask' element={<FourthTask />} />
           <Route path='/login' element={<Login/>} />
           <Route path='/sigin' element={<Sigin/>} />
-          <Route path='/hero' element={<Hero/>} />
           
         </Routes>
       </BrowserRouter>

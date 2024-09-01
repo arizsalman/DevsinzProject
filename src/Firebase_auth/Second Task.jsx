@@ -21,7 +21,7 @@ function SecondTask() {
         {
             question: 'What is 2 + 3?',
             options: ['3', '4', '5', '6'],
-            answer: '5',
+            answer: '5npm ',
         },
     ];
 
